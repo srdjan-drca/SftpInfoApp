@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SftpInfo", "SftpInfo\SftpInfo.csproj", "{C27014D1-E847-4BDA-B3F5-FF93AC3E45BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SftpInfo.UI", "SftpInfo.UI\SftpInfo.UI.csproj", "{5E070EF3-3311-42F9-B832-91D336D1F29B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleIoc", "SimpleIoc\SimpleIoc.csproj", "{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{E21DB800-E0EF-43E0-9732-BA5B843EDC3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C27014D1-E847-4BDA-B3F5-FF93AC3E45BA}.Debug|x86.ActiveCfg = Debug|x86
+		{C27014D1-E847-4BDA-B3F5-FF93AC3E45BA}.Debug|x86.Build.0 = Debug|x86
+		{C27014D1-E847-4BDA-B3F5-FF93AC3E45BA}.Release|x86.ActiveCfg = Release|x86
+		{C27014D1-E847-4BDA-B3F5-FF93AC3E45BA}.Release|x86.Build.0 = Release|x86
+		{5E070EF3-3311-42F9-B832-91D336D1F29B}.Debug|x86.ActiveCfg = Debug|x86
+		{5E070EF3-3311-42F9-B832-91D336D1F29B}.Debug|x86.Build.0 = Debug|x86
+		{5E070EF3-3311-42F9-B832-91D336D1F29B}.Release|x86.ActiveCfg = Release|x86
+		{5E070EF3-3311-42F9-B832-91D336D1F29B}.Release|x86.Build.0 = Release|x86
+		{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA}.Debug|x86.ActiveCfg = Debug|x86
+		{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA}.Debug|x86.Build.0 = Debug|x86
+		{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA}.Release|x86.ActiveCfg = Release|x86
+		{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19CF56BC-20A7-4B28-B1A7-5740DDFD08AA} = {E21DB800-E0EF-43E0-9732-BA5B843EDC3A}
+	EndGlobalSection
+EndGlobal

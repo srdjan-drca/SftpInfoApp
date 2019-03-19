@@ -1,0 +1,15 @@
+﻿<Application x:Class="SftpInfo.UI.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:SftpInfo"
+             xmlns:viewModels="clr-namespace:SftpInfo.UI.ViewModels"
+             xmlns:converters="clr-namespace:SftpInfo.UI.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!--View models-->
+        <viewModels:MainWindowViewModel x:Key="MainWindowViewModel" />
+        <viewModels:ViewModelLocator x:Key="ViewModelLocator" />
+        <!--Converters-->
+        <converters:MultiParameterConverter x:Key="MultiParameterConverter" />
+    </Application.Resources>
+</Application>
