@@ -5,7 +5,6 @@ namespace SftpInfo.UI.Commands
 {
    public class RelayCommand : ICommand
    {
-
       private readonly Predicate<object> _canExecute;
 
       private readonly Action<object> _execute;

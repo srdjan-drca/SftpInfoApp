@@ -5,7 +5,6 @@ namespace SftpInfo.UI.ViewModels
 {
    public class ViewModelLocator
    {
-
       private readonly IContainer _iocContainer;
 
       public ViewModelLocator()
